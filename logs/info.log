@@ -1,0 +1,21 @@
+2020-05-12 12:43:21,806 INFO l.s.l.LiftsimulatorApiApplication [restartedMain] Starting LiftsimulatorApiApplication on Sachith-PC- with PID 15908 (D:\IdeaProjects_2020\liftsimulator-api\target\classes started by Sachith in D:\IdeaProjects_2020\liftsimulator-api)
+2020-05-12 12:43:21,819 INFO l.s.l.LiftsimulatorApiApplication [restartedMain] No active profile set, falling back to default profiles: default
+2020-05-12 12:43:23,154 INFO o.a.c.h.Http11NioProtocol [restartedMain] Initializing ProtocolHandler ["http-nio-8080"]
+2020-05-12 12:43:23,155 INFO o.a.c.c.StandardService [restartedMain] Starting service [Tomcat]
+2020-05-12 12:43:23,156 INFO o.a.c.c.StandardEngine [restartedMain] Starting Servlet engine: [Apache Tomcat/9.0.34]
+2020-05-12 12:43:23,281 INFO o.a.c.c.C.[.[.[/] [restartedMain] Initializing Spring embedded WebApplicationContext
+2020-05-12 12:43:23,282 INFO o.s.w.c.ContextLoader [restartedMain] Root WebApplicationContext: initialization completed in 1395 ms
+2020-05-12 12:43:23,591 INFO o.s.s.c.ThreadPoolTaskExecutor [restartedMain] Initializing ExecutorService 'applicationTaskExecutor'
+2020-05-12 12:43:23,799 INFO o.a.c.h.Http11NioProtocol [restartedMain] Starting ProtocolHandler ["http-nio-8080"]
+2020-05-12 12:43:23,830 INFO l.s.l.LiftsimulatorApiApplication [restartedMain] Started LiftsimulatorApiApplication in 2.487 seconds (JVM running for 5.83)
+2020-05-12 12:43:56,608 INFO o.a.c.c.C.[.[.[/] [http-nio-8080-exec-1] Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-05-12 12:43:56,609 INFO o.s.w.s.DispatcherServlet [http-nio-8080-exec-1] Initializing Servlet 'dispatcherServlet'
+2020-05-12 12:43:56,615 INFO o.s.w.s.DispatcherServlet [http-nio-8080-exec-1] Completed initialization in 6 ms
+2020-05-12 12:44:05,649 INFO l.s.l.s.i.LiftServiceImpl [Timer-0] LIFT1 ---- Lift{currentFloor=4, person=0, direction='UP', liftStatus=PICKUP}
+2020-05-12 12:44:08,336 INFO l.s.l.s.i.LiftServiceImpl [Timer-1] LIFT2 ---- Lift{currentFloor=4, person=0, direction='UP', liftStatus=PICKUP}
+2020-05-12 12:44:09,652 INFO l.s.l.s.i.LiftServiceImpl [Timer-2] LIFT1 ---- Lift{currentFloor=4, person=1, direction='UP', liftStatus=TO_DROPOFF}
+2020-05-12 12:44:12,337 INFO l.s.l.s.i.LiftServiceImpl [Timer-3] LIFT2 ---- Lift{currentFloor=4, person=1, direction='UP', liftStatus=TO_DROPOFF}
+2020-05-12 12:44:15,653 INFO l.s.l.s.i.LiftServiceImpl [Timer-4] LIFT1 ---- Lift{currentFloor=6, person=1, direction='UP', liftStatus=DROPOFF}
+2020-05-12 12:44:18,339 INFO l.s.l.s.i.LiftServiceImpl [Timer-5] LIFT2 ---- Lift{currentFloor=6, person=1, direction='UP', liftStatus=DROPOFF}
+2020-05-12 12:44:19,655 INFO l.s.l.s.i.LiftServiceImpl [Timer-6] LIFT1 ---- Lift{currentFloor=6, person=0, direction='UP', liftStatus=IDLE}
+2020-05-12 12:44:22,340 INFO l.s.l.s.i.LiftServiceImpl [Timer-7] LIFT2 ---- Lift{currentFloor=6, person=0, direction='UP', liftStatus=IDLE}
